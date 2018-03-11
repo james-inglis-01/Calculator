@@ -10,6 +10,13 @@
     function insert(num){
       document.form.textview.value = document.form.textview.value+num
     }
+
+    function equal(){
+      var exp = document.form.textview.value
+      if(exp){
+        document.form.textview.value = eval(exp)
+      }
+    }
   </script>
 </head>
 <body>
@@ -39,7 +46,7 @@
           <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
           <td><input class="button" type="button" value="2" onclick="insert(2)"></td>
           <td><input class="button" type="button" value="3" onclick="insert(3)"></td>
-          <td><input class="button" type="button" value="="></td>
+          <td><input class="button" type="button" value="=" onclick="equal()"></td>
         </tr>
       </table>
     </form>
