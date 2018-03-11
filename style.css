@@ -4,13 +4,20 @@ body{
 }
 
 .button{
-  width: 50px;
-  background-color: #4CAF50; /* Green */
+  background-color: #008CBA;
+  border: none;
   color: white;
-  padding: 15px 32px;
+  width: 75px;
+  height: 75px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  border: none
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.textview{
+  width: 305px;
+  font-size: 20px;
+  margin: 5px;
 }
