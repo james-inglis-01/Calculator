@@ -1,12 +1,16 @@
 body{
+  /*
   margin: 0;
   padding: 0;
+  */
+  background: linear-gradient(to right, #00DFFC, #005F6B);
+  
 }
 
 .button{
-  background-color: #008CBA;
+  background-color: #E0E0E0;
   border: none;
-  color: white;
+  color: #82837E;
   width: 75px;
   height: 75px;
   text-align: center;
@@ -18,6 +22,22 @@ body{
 
 .textview{
   width: 305px;
-  font-size: 20px;
+  font-size: 50px;
   margin: 5px;
+  color: #82837E;
+  background-color: #E0E0E0;
 }
+
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/*
+.bg{
+  background: cyan;
+  height: 100%;
+}
+*/
